@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\Kolokwium\\Kolokwium\\Kolokwium.csproj": {}
+    "C:\\Users\\User\\Desktop\\APBD_KOL\\Kolokwium\\Kolokwium\\Kolokwium.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\Kolokwium\\Kolokwium\\Kolokwium.csproj": {
+    "C:\\Users\\User\\Desktop\\APBD_KOL\\Kolokwium\\Kolokwium\\Kolokwium.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Kolokwium\\Kolokwium\\Kolokwium.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\APBD_KOL\\Kolokwium\\Kolokwium\\Kolokwium.csproj",
         "projectName": "Kolokwium",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Kolokwium\\Kolokwium\\Kolokwium.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\APBD_KOL\\Kolokwium\\Kolokwium\\Kolokwium.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Kolokwium\\Kolokwium\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\APBD_KOL\\Kolokwium\\Kolokwium\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +40,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
